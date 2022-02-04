@@ -1,2 +1,2 @@
 # Graph_Theory
-Lý thuyết đồ thị
+Công cụ Lý thuyết đồ thị
