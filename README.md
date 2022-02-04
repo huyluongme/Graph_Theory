@@ -1,2 +1,2 @@
-# Graph_Theory
+# Graph Theory
 Lý thuyết đồ thị
