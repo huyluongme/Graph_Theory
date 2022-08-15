@@ -431,7 +431,7 @@ void cMenu::DrawGUI(LPDIRECT3DDEVICE9 pDevice) {
 				ToolTip(graph_functions::MST_DG[i_lang_selected]);
 			}
 
-			ImGui::Button(u8"Luồng & Lát cắt", ImVec2(-FLT_MIN, 0.0f));
+			ImGui::Button(graph_functions::flow_cut[i_lang_selected], ImVec2(-FLT_MIN, 0.0f));
 			if (ImGui::IsItemClicked())
 				Network->Network_Process();
 			else if (ImGui::IsItemHovered()) {
